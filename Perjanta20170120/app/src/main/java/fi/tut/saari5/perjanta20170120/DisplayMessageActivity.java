@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import static android.R.id.message;
+
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
@@ -14,7 +16,10 @@ public class DisplayMessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
         Intent intent =getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        Bundle extrat=intent.getExtras();
+
+        //String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+        String message = extrat.getString("EXTRA_VIESTI") + "  "+extrat.getString("EXTRA_NIMI");
         TextView textView=new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
