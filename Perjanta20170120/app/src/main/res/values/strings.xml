@@ -1,6 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Perjanta20170120</string>
     <string name="edit_message">Anna viesti</string>
     <string name="edit_name">Anna nimesi</string>
     <string name="button_send">Laheta</string>
+    <string name="button_terve">Terve</string>
 </resources>

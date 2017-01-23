@@ -10,12 +10,14 @@ import static android.R.id.message;
 
 
 public class DisplayMessageActivity extends AppCompatActivity {
+    //Maanantai paivitys
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
         Intent intent =getIntent();
+
         Bundle extrat=intent.getExtras();
 
         //String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
