@@ -5,14 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal">
-    <EditText android:id="@+id/edit_message"
+    <EditText android:id="@+id/edit_arvo1"
         android:layout_weight="1"
-        android:layout_width="0dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:hint="@string/edit_message" />
+        android:hint="@string/edit_arvo1"
+        android:inputType="number"/>
+    <TextView
+        android:text="@string/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="1" />
+
+    <EditText android:id="@+id/edit_arvo2"
+        android:layout_weight="1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_arvo2"
+        android:inputType="number"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_send"
-        android:onClick="sendMessage"/>
+        android:onClick="laskeOnClick"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_tulos"
+        android:layout_weight="1" />
 </LinearLayout>

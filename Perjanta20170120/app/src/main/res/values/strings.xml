@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Perjanta20170120</string>
-    <string name="edit_message">Anna viesti</string>
-    <string name="button_send">Laheta</string>
+    <string name="edit_arvo1">Arvo</string>
+    <string name="edit_arvo2">Arvo</string>
+    <string name="TextView">+</string>
+    <string name="button_send">Laske</string>
     <string name="button_send1">Laheta2</string>
 </resources>
