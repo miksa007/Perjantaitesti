@@ -8,6 +8,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     public final static String EXTRA_MESSAGE="fi.tut.saari5.perjantai20170120.MESSAGE";
+    // Uusi kommentti
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
