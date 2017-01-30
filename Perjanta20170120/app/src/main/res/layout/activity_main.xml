@@ -11,13 +11,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
-        android:id="@+id/numero1" />
+        android:id="@+id/numero1"
+        />
 
     <TextView
         android:layout_weight="1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
         android:text="+"
         android:id="@+id/editText2" />
 
@@ -30,7 +32,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button_send"
-        android:onClick="sendMessage"/>
+        android:onClick="summaLasku"/>
     <EditText android:id="@+id/tulos"
         android:layout_weight="3"
         android:layout_width="wrap_content"

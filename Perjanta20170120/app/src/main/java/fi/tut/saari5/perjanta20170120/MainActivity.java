@@ -29,10 +29,14 @@ public class MainActivity extends AppCompatActivity {
         //muunnetaan arvo kokonaisluvuksi
         int luku1=Integer.parseInt(arvo1);
 
-        Log.d(TAG, "numero1="+luku1);
+        //ja toiselle luvulle sama
+        int luku2 = Integer.parseInt(editTextNumero2.getText().toString());
+
+        Log.d(TAG, "numero1="+luku1+" ja numero2="+luku2);
+        int tulos=luku1+luku2;
 
         //kirjoitetaan luku1 nayttoon
-        editTextTulos.setText(""+luku1);
+        editTextTulos.setText(""+tulos);
 
 
     }
