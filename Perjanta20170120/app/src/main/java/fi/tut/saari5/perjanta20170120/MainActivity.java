@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(TAG, "kirjoitus");
         String filename = "myfile";
         String string = "Hello world!\n";
+        //https://www.mkyong.com/java/how-to-get-current-timestamps-in-java/
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         FileOutputStream outputStream;
 
