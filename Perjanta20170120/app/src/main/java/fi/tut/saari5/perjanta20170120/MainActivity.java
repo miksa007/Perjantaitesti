@@ -37,7 +37,58 @@ public class MainActivity extends AppCompatActivity {
 
         //kirjoitetaan luku1 nayttoon
         editTextTulos.setText(""+tulos);
+    }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.d(TAG, "onPause() - metodia kutsuttiin");
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d(TAG, "onStart() - metodia kutsuttiin");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.d(TAG, "onRestart() - metodia kutsuttiin");
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.d(TAG, "onResume() - metodia kutsuttiin");
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Log.d(TAG, "onStop() - metodia kutsuttiin");
 
     }
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.d(TAG, "onDestroy() - metodia kutsuttiin");
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
