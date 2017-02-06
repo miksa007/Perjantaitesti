@@ -4,4 +4,6 @@
     <string name="edit_message">numero</string>
     <string name="edit_name">Anna nimesi</string>
     <string name="button_send">Laske</string>
+    <string name="button_kirjoita">Kirjoita tiedostoon</string>
+    <string name="button_lue">Lue tiedostosta</string>
 </resources>
